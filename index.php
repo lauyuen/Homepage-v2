@@ -15,6 +15,7 @@
 
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/style.css?v=<?= time() ?>">
+  <link href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Pacifico|Muli&amp;v2" rel="stylesheet" type="text/css">
   <!-- end CSS-->
 
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
@@ -47,8 +48,53 @@
     </div>
     <div id="right">
       <div id="main" role="main">
-	<div>
-	  Hello world
+	<div id="blogpost">
+	  <h1 id="title">Hello World</h1>
+	  <div id="content">
+	    <div id="summary">
+	      A wonderful serenity has taken possession of my entire
+	      soul, like these sweet mornings of spring which I enjoy
+	      with my whole heart. I am alone, and feel the charm of
+	      existence in this spot, which was created for the bliss
+	      of souls like mine. I am so happy, my dear friend, so
+	      absorbed in the exquisite sense of mere tranquil
+	      existence, that I neglect my talents.
+	    </div>
+	    <div id="infobar">
+	      <?php print date("M dS, Y"); ?>
+	    </div>
+	  </div>
+	</div>
+	<div id="blogpost" class="blue">
+	  <h1 id="title">Far far away, behind the word mountains</h1>
+	  <div id="content">
+	    <div id="summary">
+	      A wonderful serenity has taken possession of my entire
+	      soul, like these sweet mornings of spring which I enjoy
+	      with my whole heart. I am alone, and feel the charm of
+	      existence in this spot, which was created for the bliss
+	      of souls like mine. I am so happy, my dear friend, so
+	      absorbed in the exquisite sense of mere tranquil
+	      existence, that I neglect my talents.
+	    </div>
+	  </div>
+	</div>
+	<div id="blogpost">
+	  <h1 id="title">Hello World</h1>
+	  <div id="content">
+	    <div id="summary">
+	      A wonderful serenity has taken possession of my entire
+	      soul, like these sweet mornings of spring which I enjoy
+	      with my whole heart. I am alone, and feel the charm of
+	      existence in this spot, which was created for the bliss
+	      of souls like mine. I am so happy, my dear friend, so
+	      absorbed in the exquisite sense of mere tranquil
+	      existence, that I neglect my talents.
+	    </div>
+	    <div id="infobar">
+	      <?php print date("M dS, Y"); ?>
+	    </div>
+	  </div>
 	</div>
       </div>
     </div>
