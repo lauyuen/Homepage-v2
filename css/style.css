@@ -11,8 +11,8 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 body { margin: 0; font-size: 13px; line-height: 1.231; }
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #C4ECFF; color: #fff; text-shadow: none; }
+::selection { background: #C4ECFF; color: #fff; text-shadow: none; }
 
 a { color: #00e; }
 a:visited { color: #551a8b; }
@@ -37,7 +37,7 @@ sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
-nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+ul.nav, ol.nav, nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 svg:not(:root) { overflow: hidden; }
 figure { margin: 0; }
@@ -63,18 +63,64 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author: 
+   Author: Yuen Lau
    ========================================================================== */
+html { height: 100%; }
+body { height: 100%; width: 100%; display: table; }
 
+#container { width: 100%; height: 100%; display: table-row; }
 
+#left, #right {
+    height: 100%;
+    display: table-cell;
+}
 
+#left {
+    width: 500px;
+}
 
+#right {
+    vertical-align: top;
+}
 
+#sidebar { width: 100%; height: 100%; display: table; }
 
+header {
+    width: 100%;
+    text-align:center; 
+    display: table-row;
+    height: 400px;
+    vertical-align: bottom;
+}
 
+header img { padding-top: 200px; }
 
+header a { display: table-cell; }
 
+nav {
+    text-align: right;
+    display: table-row;
+}
 
+nav ul {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+footer {
+    text-align: right;
+    display: table-row;
+}
+
+footer ul {
+    vertical-align: top;
+    display: table-cell;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
 
 
 
