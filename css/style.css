@@ -37,7 +37,7 @@ sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
-ul.nav, ol.nav, nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 svg:not(:root) { overflow: hidden; }
 figure { margin: 0; }
@@ -115,14 +115,18 @@ nav a, footer a {
     text-decoration: none;
 }
 
-nav ul {
+nav ul, footer ul {
+    padding-right: 3%;
     display: table-cell;
+}
+
+nav ul {
     vertical-align: bottom;
 }
 
 footer ul {
     vertical-align: middle;
-    display: table-cell;
+    list-style: none;
 }
 
 #main {
@@ -159,22 +163,28 @@ footer ul {
     margin-right: 10%;
 }
 
+#blogpost #summary, #blogpost #infobar {
+    font-family: 'Muli', sans-serif;
+    font-size: 1em;
+}    
+
 #blogpost #summary {
     background-color: #fff;
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 6%;
     padding-right: 6%;
-    font-family: 'Muli', sans-serif;
-    font-size: 1em;
-    text-shadow: #ddd 0px 0px 1px;
+    color: #333;
+    text-shadow: #999 0px 0px 1px;
     line-height: 2em;
     border-radius: 0 20px 0 20px;
     -moz-border-radius:0 20px 0 20px;
     border: 1px #ACD solid;
 }
 
-
+#blogpost #infobar {
+    color: #fff;
+}
 
 
 /* ==|== non-semantic helper classes ======================================== */

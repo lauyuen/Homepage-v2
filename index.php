@@ -59,9 +59,14 @@
 	      of souls like mine. I am so happy, my dear friend, so
 	      absorbed in the exquisite sense of mere tranquil
 	      existence, that I neglect my talents.
+	      I feel the presence of the Almighty, who formed us in
+	      his own image, and the breath of that universal love
+	      overspreads my eyes, and heaven and earth seem to dwell
+	      are noticed by me: when I hear the buzz of the little
+	      world among the stalks, and grow familiar with.
 	    </div>
 	    <div id="infobar">
-	      <?php print date("M dS, Y"); ?>
+	      <?php print date("F dS, Y"); ?>
 	    </div>
 	  </div>
 	</div>
@@ -92,7 +97,7 @@
 	      existence, that I neglect my talents.
 	    </div>
 	    <div id="infobar">
-	      <?php print date("M dS, Y"); ?>
+	      <?php print date("F dS, Y"); ?>
 	    </div>
 	  </div>
 	</div>
