@@ -32,9 +32,10 @@
 	</header>
 	<nav>
 	  <ul role="navigation">
-            <li><a href="Blog">Blog</a></li>
+            <li><a href="Journal">Journal</a></li>
             <li><a href="Projects">Projects</a></li>
-            <li><a href="ResumeCV">Resume or CV</a></li>
+            <li><a href="Resume">Resume</a></li>
+	    <li class="768"><a href="Contact">Contact</a></li>
 	  </ul>
 	</nav>
 	<footer>

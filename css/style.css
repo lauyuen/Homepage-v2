@@ -115,6 +115,12 @@ nav a, footer a {
     text-decoration: none;
 }
 
+nav a:hover, footer a:hover {
+    color: #fff;
+    text-shadow: #159 0px 0px 2px,
+                 #C4ECFF 0px 0px 4px;
+}
+
 nav ul, footer ul {
     padding-right: 3%;
     display: table-cell;
@@ -203,14 +209,38 @@ footer ul {
 
 @media only screen and (min-width: 480px) {
 
-
 }
 
-@media only screen and (min-width: 768px) {
+@media (max-width: 860px) {
 
+footer ul li{
+    display: none;
+}
+
+nav {
+    text-align: center;
+}
+
+header img {
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 3%;
+}
+
+header {
+    height: auto;
 }
 
 
+#left, #right {
+    display: table-row;
+}
+
+}
 
 /* ==|== print styles ======================================================= */
  
